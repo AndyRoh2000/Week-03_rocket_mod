@@ -23,7 +23,7 @@ class Rocket extends Phaser.GameObjects.Sprite {
         }
 
         if (!this.isFiring) {
-            this.x = this.scene.input.mousePointer.x;
+            this.x = this.scene.input.mousePointer.x
         }
 
           // fire button

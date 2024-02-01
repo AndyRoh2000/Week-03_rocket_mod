@@ -11,9 +11,12 @@
 
 // Display the time remaining (in seconds) on the screen (3)
 
-// Randomize each spaceship's movement direction at the start of each play (1)
+// Track a high score that persists across scenes and display it in the UI (1)
+// added the UI.js to make it float it over Menu.js and Play.js
 
 // Implement the speed increase that happens after 30 seconds in the original game (1)
+
+// this is NOT for the 
 
 "use strict"
 
@@ -34,6 +37,6 @@ let keyFIRE, keyRESET, keyLEFT, keyRIGHT
 let borderUISize = game.config.height / 15
 let borderPadding = borderUISize / 3
 
-let highScore = 0;
+let highScore = 0
 
 
