@@ -13,6 +13,7 @@ class Menu extends Phaser.Scene {
         this.load.image('rocket', './assets/rocket.png')
         this.load.image('spaceship', './assets/spaceship.png')
         this.load.image('starfield', './assets/starfield.png')
+        this.load.image("fastship", "./assets/fastship.png")
 
         // load spritesheet
         this.load.spritesheet('explosion', './assets/explosion.png', {
