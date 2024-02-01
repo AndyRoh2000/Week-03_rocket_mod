@@ -9,7 +9,7 @@ class Rocket extends Phaser.GameObjects.Sprite {
       this.moveSpeed = 2
 
       this.playScene = scene
-      this.sfxShot = scene.sound.add('sfx-shot')
+      this.sfxShot = scene.sound.add('pikasound')
     }
 
     update() {

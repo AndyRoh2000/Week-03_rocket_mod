@@ -24,8 +24,10 @@ class Menu extends Phaser.Scene {
         })
         // load audio
             this.load.audio('sfx-select', './assets/sfx-select.wav')
-            this.load.audio('sfx-explosion', './assets/sfx-explosion.wav')
-            this.load.audio('sfx-shot', './assets/sfx-shot.wav')
+            // https://tuna.voicemod.net/sound/2e36dce4-4ad6-4b74-946c-e68c428df955 pokeball audio
+            this.load.audio('pokeball', './assets/pokeball.mp3')
+            // https://tuna.voicemod.net/sound/e5d30a4a-f588-45ae-8946-e880448160ee pikachu audio
+            this.load.audio('pikasound', './assets/pikasound.mp3')
     }
 
     create() {

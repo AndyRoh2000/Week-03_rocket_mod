@@ -1,6 +1,6 @@
 // Name: Gyungmin Roh
 // Date: 25 JAN 2024
-// Rocket Patrol: Asian mode
+// Rocket Patrol: Pika Patrol
 // Approximate time: 10hrs
 // List of modifications
 // Create a new enemy Spaceship type (w/ new artwork) that's smaller, moves faster, and is worth more points (5)
@@ -16,7 +16,7 @@
 
 // Implement the speed increase that happens after 30 seconds in the original game (1)
 
-// this is NOT for the 
+// this is NOT for the points, but I changed the theme to Pikachu
 
 "use strict"
 
